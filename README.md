@@ -1,54 +1,102 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Gaurav Sweets Shop Branch Details</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gaurav Sweets Shop Branch Details</h2>
+    <table>
+        <tr>
+            <th>SR NO</th>
+            <th>SHOPS</th>
+            <th>MOBILE NO</th>
+            <th>ADDRESS</th>
+            <th>MANAGER NAME</th>
+        </tr>
+        <tr>
+            <td>G1</td>
+            <td>VASANT VIHAR</td>
+            <td><a href="https://wa.me/919867136255">9867136255</a></td>
+            <td><a href="https://www.google.com/maps?q=VASANT+VIHAR+SHOP+NO-20,+AMRAPALI+ARCADE,+THANE+400610" target="_blank">SHOP NO-20, AMRAPALI ARCADE, VASANT VIHAR, THANE (W) 400610</a></td>
+            <td>MUKESH PATEL</td>
+        </tr>
+        <tr>
+            <td>G2</td>
+            <td>MANPADA</td>
+            <td><a href="https://wa.me/919967199515">9967199515</a></td>
+            <td><a href="https://www.google.com/maps?q=MANPADA+SHOP+NO-2,+COSMOS+MART,+THANE+400610" target="_blank">SHOP NO-2, COSMOS MART, MANPADA, THANE (W) 400610</a></td>
+            <td>SHAMBHU</td>
+        </tr>
+        <tr>
+            <td>G3</td>
+            <td>HIRANANDANI ESTATE</td>
+            <td><a href="https://wa.me/917738801610">7738801610</a></td>
+            <td><a href="https://www.google.com/maps?q=HIRANANDANI+ESTATE,+THANE+400607" target="_blank">HIRANANDANI ESTATE, G.B.ROAD, THANE (W) 400607</a></td>
+            <td>BABU PATEL</td>
+        </tr>
+        <tr>
+            <td>G4</td>
+            <td>KASARVADAVALI</td>
+            <td><a href="https://wa.me/919930676255">9930676255</a></td>
+            <td><a href="https://www.google.com/maps?q=KASARVADAVALI+SHOP+NO12/13,+THANE+400615" target="_blank">SHOP NO12/13, MAHALAXMI TOWER, KASARVADAVALI, THANE (W) 400615</a></td>
+            <td>MANGLARAM</td>
+        </tr>
+        <tr>
+            <td>G5</td>
+            <td>DHOKALI</td>
+            <td><a href="https://wa.me/917738311375">7738311375</a></td>
+            <td><a href="https://www.google.com/maps?q=DHOKALI+SHOP+NO+16/17,+THANE+400607" target="_blank">SHOP NO. 16 & 17, GR. FLOOR, DHOKALI, THANE WEST - 400607</a></td>
+            <td>MUKESH PATEL</td>
+        </tr>
+        <tr>
+            <td>G6</td>
+            <td>BRAHMAND</td>
+            <td><a href="https://wa.me/917710010809">7710010809</a></td>
+            <td><a href="https://www.google.com/maps?q=BRAHMAND+SHOP+NO9,+THANE+400607" target="_blank">SHOP NO9, GROUND FLOOR, BRAHMAND, THANE (WEST) - 400607</a></td>
+            <td>JITENDRA SINGH</td>
+        </tr>
+        <tr>
+            <td>G7</td>
+            <td>WAGHBIL</td>
+            <td><a href="https://wa.me/918286424248">8286424248</a></td>
+            <td><a href="https://www.google.com/maps?q=WAGHBIL+SHOP+NO+5+&+6,+THANE+400601" target="_blank">SHOP NO 5 & 6, WAGHBIL, THANE WEST 400601</a></td>
+            <td>LALJIBHAI</td>
+        </tr>
+        <tr>
+            <td>G8</td>
+            <td>POWAI</td>
+            <td><a href="https://wa.me/918828552211">8828552211</a></td>
+            <td><a href="https://www.google.com/maps?q=POWAI+SHOP+NO+3,+CYPRESS+CHS,+MUMBAI+400076" target="_blank">SHOP NO 3, CYPRESS CHS, POWAI, MUMBAI 400076</a></td>
+            <td>GOVIND / BABU PATEL</td>
+        </tr>
+        <tr>
+            <td>G9</td>
+            <td>CHANDIVALI</td>
+            <td><a href="https://wa.me/917039996661">7039996661</a></td>
+            <td><a href="https://www.google.com/maps?q=CHANDIVALI+SHOP+NO+E2/E3,+MUMBAI+400072" target="_blank">SHOP NO, E2, E3, CHANDIVALI, MUMBAI 400072</a></td>
+            <td>VIKRAM SINGH</td>
+        </tr>
+        <tr>
+            <td>G10</td>
+            <td>VILE PARLE (IRLA)</td>
+            <td><a href="https://wa.me/918291553533">8291553533</a> / <a href="https://wa.me/918291995555">8291995555</a></td>
+            <td><a href="https://www.google.com/maps?q=VILE+PARLE+SHOP+NO+3/4,+MUMBAI+400056" target="_blank">SHOP NO 3/4, IRLA, VILE PARLE (W), MUMBAI 400056</a></td>
+            <td>KISHOR PATEL</td>
+        </tr>
+    </table>
+</body>
+</html>
